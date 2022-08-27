@@ -1,7 +1,7 @@
 import handlers.java.gradle_handler
 
 
-def handle_dependency_manager(config_data: dict):
+def handle(config_data: dict):
     dependency_manager = config_data['dependency_manager']
 
     match dependency_manager:
