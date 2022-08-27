@@ -1,7 +1,6 @@
-def run(config_dict: dict):
-    language = config_dict['language']
-    dependency_manager = config_dict['dependency_manager']
-    versions = config_dict['versions']
-    project_path = config_dict['project_path']
+import handlers.handlers_chain
 
+
+def run(config_dict: dict):
+    handlers.handlers_chain.run_handlers_chain(config_data=config_dict)
 
