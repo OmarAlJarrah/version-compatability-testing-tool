@@ -1,9 +1,9 @@
-import handlers.java.gradle_handler
+import handlers.java.dependency_manager_decider
 
 
-def handle_language(config_data: dict):
+def handle(config_data: dict):
     language = config_data['language']
 
     match language:
         case 'java':
-            handlers.java.gradle_handler.handle(config_data)
+            handlers.java.dependency_manager_decider.handle(config_data=config_data)
