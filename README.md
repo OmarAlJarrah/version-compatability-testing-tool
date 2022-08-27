@@ -1,6 +1,6 @@
 # version-compatibility-testing-tool
 
-A tool for testing multiple programming languages versions for a project.
+A tool for testing multiple programming language versions for a project.
 
 ## Requirements
 + Docker
