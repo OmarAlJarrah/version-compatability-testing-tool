@@ -1,5 +1,5 @@
 from datetime import datetime
-from templates import default_report_file_name_template
+from report.templates import default_report_file_name_template
 
 
 def generate_report_file_name(version: str):
