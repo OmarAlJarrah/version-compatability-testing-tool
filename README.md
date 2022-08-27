@@ -2,6 +2,11 @@
 
 A tool for testing multiple programming versions for a project.
 
+## Requirements
++ Docker
++ Unix System
+
+
 ## Supported languages
 ### Java
 + JDKs
